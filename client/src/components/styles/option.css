@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.option {
+	width: calc(80% - 10px);
+	padding-left: 10px;
+	min-height: 60px;
+	margin: 10px auto;
+	border: 1px solid gray;
+	display: flex;
+	align-items: center;
+	font-family: 'Prompt', sans-serif;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.option:hover {
+	background: lightblue;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.option {
+		width: calc(40% - 10px);
+	}
+}

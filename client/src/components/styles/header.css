@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Prompt&display=swap');
+
+header {
+	width: 100%;
+	height: 70px;
+	background: #30336B;
+}
+
+.logo-burger-container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.logo-container {
+	width: calc(70% - 20px);
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 1.8em;
+	padding-left: 20px;
+	color: #EA7773;
+	font-family: 'Jost', sans-serif;
+}
+
+.logo-container span {
+	color: #019031;
+}
+
+.burger-menu-container {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.menu-options-container {
+	width: 100%;
+	display: flex;
+	position: absolute;
+	top: -100%;
+	justify-content: center;
+	background: #30336B;
+	border-top: 2px solid #019031;
+	border-bottom: 2px solid #019031;
+	transition: .5s;
+}
+
+.menu-options-container ul {
+	/*text-align: center;*/
+	margin: 0;
+	padding: 0;
+	min-width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-options-container ul li {
+	list-style-type: none;
+	margin: 10px 0px;
+	color: white;
+	font-family: 'Jost', sans-serif;
+}
+
+.menu-options-container ul li a {
+	color: white;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+footer {
+	width: 100%;
+	height: 70px;
+	background: #F5BCBA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.7em;
+}

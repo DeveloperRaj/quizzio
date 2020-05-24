@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.qna-container {
+	width: 90%;
+	margin: 20px auto;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.qna-container div:nth-child(2) {
+	margin: 10px 0;
+	border-bottom: 1px solid gray;
+	font-size: 1.1em;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.logout-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Prompt', sans-serif;
+}
+
+.logout-container a {
+	margin: 10px 0px;
+	padding: 10px 40px;
+	background: #8B78E6;
+	text-decoration: none;
+	color: white;
+	font-family: 'Prompt', sans-serif;
+}

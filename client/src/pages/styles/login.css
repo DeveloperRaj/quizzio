@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Prompt&display=swap');
+
+.login-container {
+	width: 100%;
+	min-height: 100vh;
+	background: #2B2B52;
+}
+
+.greetings-container {
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.greetings-container span {
+	margin: 10px 20px;
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	font-size: 1.5em;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+.form-container {
+	width: 90%;
+	margin: auto;
+	background: #fff;
+}
+
+.form-header {
+	width: calc(100% - 40px);
+	padding: 10px;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Jost', sans-serif;
+}
+
+form {
+	width: 100%;
+	height: auto;
+}
+
+form input[type="text"],
+form input[type="number"],
+select {
+	width: calc(90% - 10px);
+	padding-left: 10px;
+	font-size: 1em;
+	height: 60px;
+	border: none;
+	margin-left: 5%;
+	background: #fafafa;
+	font-family: 'Jost', sans-serif;
+	margin-bottom: 10px;
+}
+
+form input:focus,
+select {
+	outline: none;
+}
+
+input[type="submit"] {
+	width: 30%;
+	height: 40px;
+	margin: 20px 35%;
+	background: #8B78E6;
+	border: none;
+	color: white;
+	font-size: 1.1em;
+	font-family: 'Prompt', sans-serif;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.greetings-container {
+		align-items: center;
+	}
+	.form-container {
+		width: 30%;
+	}
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.results {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Cabin';
+}
+
+.marks {
+	width: 90px;
+	height: 90px;
+	border: 3px solid green;
+	margin: 10px 0px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.1em;
+	font-family: 'Cabin', sans-serif;
+}
+
+.pass-fail {
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.5em;
+}
+
+.results a {
+	margin: 30px 0px;
+	padding: 10px 40px;
+	background: #8B78E6;
+	text-decoration: none;
+	color: white;
+	font-family: 'Prompt', sans-serif;
+}

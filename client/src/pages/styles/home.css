@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Prompt&display=swap');
+
+.banner {
+	width: 100%;
+	height: calc(100vh - 140px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+p {
+	margin: 10px 0px;
+}
+
+.banner p:nth-child(1) {
+	font-family: 'Jost', sans-serif;
+	font-size: 1.1em;
+}
+.banner p:nth-child(2) {
+	font-family: 'Prompt', sans-serif;
+	font-size: 1.2em;
+}
+
+.banner a {
+	padding: 10px 40px;
+	background: #8B78E6;
+	text-decoration: none;
+	color: white;
+	font-family: 'Prompt', sans-serif;
+}
