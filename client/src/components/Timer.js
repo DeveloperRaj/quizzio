@@ -24,7 +24,7 @@ const Timer = () => {
 	}
 
 	const onTimerChanged = () => {
-		if (timer === 11) {
+		if (timer === 61) {
 			incCurrentIndex();
 		}
 	}
